@@ -1,0 +1,148 @@
+body {
+    background-color: #e9e9e2;
+}
+
+p {
+    font-size: large;
+}
+
+/*Main Nav Bar*/
+.main_nav_bar ul {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #04AA6D;
+}
+
+.main_nav_bar li {
+    float: left;
+}
+
+.main_nav_bar li a {
+    display: block;
+    padding: 26px;
+    text-decoration: none;
+    text-align: center;
+    font-size: larger;
+    color: #ffffff;
+}
+
+.main_nav_bar li a:hover:not(.active) {
+    color: #ffffff;
+    background-color: #555;
+}
+
+.main_nav_bar li a.active {
+    color: #ffffff;
+    background-color: #111;
+}
+
+/*Authentication Nav Bar*/
+.authenticate_nav_bar ul {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0px;
+    width: 200px;
+    background-color: #04AA6D;
+}
+
+.authenticate_nav_bar li a {
+    display: block;
+    padding: 26px;
+    text-decoration: none;
+    text-align: left;
+    font-size: large;
+    color: #ffffff;
+}
+
+.authenticate_nav_bar li a:hover:not(.active){
+    color: #ffffff;
+    background-color: #555;
+}
+
+.authenticate_nav_bar li a.active {
+    color: #ffffff;
+    background-color: #111;
+}
+
+/*Registeration Form Requirements*/
+.registration_form {
+    margin: 5px;
+}
+
+.registration_form .error {
+    color: #ff0000;
+}
+
+/*About Info*/
+.about_info {
+    padding-left: 25px;
+}
+
+.about_info h1 {
+    font-size: x-large;
+}
+
+.about_info p {
+    font-size: larger;
+}
+
+/*Authenticate Info*/
+.authenticate_info {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-top: 5px;
+}
+
+.authenticate_info h1 {
+    font-size: x-large;
+}
+
+.authenticate_info p {
+    font-size: larger;
+}
+
+/*Authenticate Password-Based*/
+.authenticate_password{
+    float: center;
+    position: absolute;
+    left: 300px;
+    right: 500px;
+    top: 215px;
+}
+
+.authenticate_password label {
+    font-size: large;
+}
+
+/*Home Page*/
+.home_info {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+.home_info p {
+    font-size: larger;
+}
+
+ .home_form label{
+    font-size: large;
+}
+
+
+/*Project Auth Logo*/
+#project_logo {
+    position: relative;
+}
+
+#project_logo img {
+    position: absolute;
+    top: 0px;
+    right: -8px;
+    width: 70px;
+    height: 70px;
+    padding-top: 2px;
+}

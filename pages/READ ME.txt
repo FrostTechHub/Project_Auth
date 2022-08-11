@@ -1,0 +1,11 @@
+READ ME
+
+- When accessing webpage, use the following web address: http://localhost/Project_Auth/home.php
+
+
+TO DO LIST:
+- Fix Authentication Page (Image [Failed Password] Not Suppose To Display Until User Enters Wrong Password) [SOLVED]
+    - Fix Home Page (User's Data Is Not Saved Into The Session!) [SOLVED]
+- Fix Project Auth Logo (Need To Resize And Place In Correct Position[Top Right Of Nav Bar]) [SOLVED]
+- Fix Nav Bar (The Page User Is On Suppose To Be Coloured In #111) [SOLVED]
+- Edit multi-factor, biometric, certificate & token web pages
