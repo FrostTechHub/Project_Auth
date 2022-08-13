@@ -11,7 +11,8 @@
 
         //Define variables and set to empty values
         $message = "Account Not Created! Please Create Account!";
-        $username = $password = $account_type = $errMsg_username = $errMsg_password = $errMsg_account_type = $errMsg_email = "";
+        $username = $password = $account_type = $email_addr = ""; 
+        $errMsg_username = $errMsg_password = $errMsg_account_type = $errMsg_email = "";
 
         
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -57,6 +58,7 @@
             $_SESSION["password"] = $password;
             $_SESSION["email_addr"] = $email_addr;
             $_SESSION["account_type"] = $account_type;
+            $_SESSION["verification_code"] = "0";
             
             //User Confirmation Message
             $message = "Hello ".$_SESSION["username"].". Your Account Is Ready! You May Now Access Learning Resources! Please Note That 
