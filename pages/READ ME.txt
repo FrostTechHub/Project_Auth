@@ -9,3 +9,8 @@ TO DO LIST:
 - Fix Project Auth Logo (Need To Resize And Place In Correct Position[Top Right Of Nav Bar]) [SOLVED]
 - Fix Nav Bar (The Page User Is On Suppose To Be Coloured In #111) [SOLVED]
 - Edit multi-factor, biometric, certificate & token web pages
+    - Change If-Else into a function for multi-factor authentication page [SOLVED]
+- Set Up Google Cloud [TBC]
+    - Set up VMs 
+    - Set up Database -> Swap from sessions based to database [TBC]
+    - Set up Kurbenetes ->
