@@ -13,4 +13,4 @@ TO DO LIST:
 - Set Up Google Cloud [TBC]
     - Set up VMs 
     - Set up Database -> Swap from sessions based to database [TBC]
-    - Set up Kurbenetes ->
+    - Set up Kurbenetes -> [TBC]
