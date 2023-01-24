@@ -7,12 +7,15 @@ p {
 }
 
 /*Main Nav Bar*/
+.main_nav_bar {
+    overflow: hidden;
+    background-color: #04AA6D; 
+}
 .main_nav_bar ul {
     list-style-type: none;
     margin: -8px;
     padding: 0px;
     overflow: hidden;
-    background-color: #04AA6D;
 }
 
 .main_nav_bar li {
